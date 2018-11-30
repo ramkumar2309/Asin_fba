@@ -55,7 +55,7 @@ ROOT_URLCONF = 'ASINTool.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['NAGammaStandardAsinExpiry/templates/NAGammaStandardAsinExpiry'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
